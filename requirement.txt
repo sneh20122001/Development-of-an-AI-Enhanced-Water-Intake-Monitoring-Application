@@ -1,0 +1,27 @@
+# LLM & AI Agent Frameworks
+langchain==0.1.12
+openai==1.14.1
+llama-index  # Automatically installs the latest version
+
+# Backend (API)
+fastapi==0.109.2
+uvicorn==0.27.0.post1
+
+# Database
+sqlalchemy==2.0.27
+sqlite-utils==3.35
+
+# Environment Variables
+python-dotenv==1.0.1
+
+# Logging & Debugging
+loguru==0.7.2
+
+# Task Scheduling (For Reminders)
+apscheduler==3.10.4
+
+# CLI Interaction (Optional)
+typer==0.9.0
+
+# Streamlit UI (Optional)
+streamlit==1.31.1
